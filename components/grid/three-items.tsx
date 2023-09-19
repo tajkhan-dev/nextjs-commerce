@@ -45,6 +45,8 @@ export async function ThreeItemGrid() {
 
   if (!homepageItems[0] || !homepageItems[1] || !homepageItems[2]) return null;
 
+  console.log(homepageItems);
+
   const [firstProduct, secondProduct, thirdProduct] = homepageItems;
 
   return (
